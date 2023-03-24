@@ -62,8 +62,8 @@ int height (node *root)
 	return hi;
 }
 
-//Copied from stackoverflow
-void printBT(const std::string& prefix, node* root, bool isLeft)
+
+void printBT(const std::string& prefix, node* root, bool isLeft) //Taken from SO
 {
     if( root != nullptr )
     {
